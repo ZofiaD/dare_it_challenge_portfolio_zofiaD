@@ -115,7 +115,7 @@ Application functionality:
  * "DEV team contact" functionality 
  * Responsive layout
 
-Unfortunately, the application has poor interface and is not very intuitive. The "add" or "edit match" function can only be accessed via player or "activity". It also has many bugs. You can find the report from the exploratory testing session on my Github (XTSessionReport.html file). The session was conducted on the Chrome browser Version 108.0.5359.126. The report includes screenshots of bugs. However, it is the effect of experimenting with the plugin, rather than a professional report 😏. List of errors below.
+Unfortunately, the application has poor interface and is not very intuitive. The "add" or "edit match" function can only be accessed via player or "activity". It also has many bugs. The report from the exploratory testing session can be found on my Github (XTSessionReport.html file). The session was conducted on the Chrome browser Version 108.0.5359.126. The report includes screenshots of bugs. However, it is the effect of experimenting with the plugin, rather than a professional report 😏. List of errors below.
 
  * Whle recovering your password, after clicking "SEND" button, the pop-up with "Message sent successfully" appears whether or not you have entered your e-mail address.
  * Once you enter wrong login or password, the return message is always in English (despite having the Polish language chosen).
