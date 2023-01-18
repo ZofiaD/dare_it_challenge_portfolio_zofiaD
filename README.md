@@ -127,7 +127,7 @@ Unfortunately, the application has poor interface and is not very intuitive. The
 
  2. Too great or too small height.
 
- 3. You can add a player who has not been borned yet or would be over 100 years old.
+ 3. You can add a player who has not been born yet or would be over 100 years old.
 
  4. You can type numbers instead of letters and letters instead of numbers. You can also type emojis.
 
