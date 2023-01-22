@@ -49,19 +49,19 @@ Niestety aplikacja posiada słaby interfejs i  jest mało intuicyjna. Do funkcji
 * Przy tworzeniu gracza i edycji jego danych można wpisać niepoprawne wartości takie jak:
 
 
-1. Zbyt mała lub duża waga np. - 100 (dodatkowo waga nie jest podana w jednostkach. Czy to kg czy funty?) 
+  * Zbyt mała lub duża waga np. - 100 (dodatkowo waga nie jest podana w jednostkach. Czy to kg czy funty?) 
 
 
-2. Zbyt duży/mały wzrost.
+  * Zbyt duży/mały wzrost.
 
 
-3. Można dodać gracza który miałby teraz ponad 100 lat lub urodzi się dopiero w przyszłości.
+  * Można dodać gracza który miałby teraz ponad 100 lat lub urodzi się dopiero w przyszłości.
 
 
-5. Można wpisać cyfry zamiast liter i litery zamiast cyfr, a nawet emotikony.
+  * Można wpisać cyfry zamiast liter i litery zamiast cyfr, a nawet emotikony.
 
 
-6. Można wprowadzić za dużo znaków w wyniku czego przy przeglądaniu graczy tekst nachodzi na inne kolumny i staje się nieprzejrzysty.
+  * Można wprowadzić za dużo znaków w wyniku czego przy przeglądaniu graczy tekst nachodzi na inne kolumny i staje się nieprzejrzysty.
 
 *  Pomimo zapisania danych przycisk "clear" przywraca pierwotne dane.
 *  Przycisk "submit" i "clear" są w języku angielskim pomimo zmiany ustawień strony na polski.
@@ -73,6 +73,22 @@ Niestety aplikacja posiada słaby interfejs i  jest mało intuicyjna. Do funkcji
 * Nie ma możliwości ściągięcia raportu z meczu.
 * Złe tłumaczenie na stronie głównej "linki pomocnicze".
 * Dev team contact odnosi nas tylko do aplikacji slack zamiast do maila itp.
+
+# TASK 2
+
+## Subtask 1 - *Pisanie przypadków testowych na podstawie User Story.*
+
+Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+
+
+## Subtask 2 - *Pisanie przypadków testowych na podstawie “własnych doświadczeń"*.
+
+Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+
+## Subtask 3 - *Po co piszemy test case’y?*
+
+Moim zdaniem przypadki testowe piszemy, ponieważ pomaga nam to planować testy.
+Łatwiej jest z ich pomocą zweryfikować zgodność oprogramowania z wymaganiami. Są pewnego rodzaju instrukcją dla testera, oomocną zwłaszcza dla nowych testerów w projekcie. Umożliwiają również skuteczne i spójne testowanie regresji.
 
 
 
@@ -86,7 +102,7 @@ Niestety aplikacja posiada słaby interfejs i  jest mało intuicyjna. Do funkcji
 
 ## Subtask 3
 
-HI, ma name is Zofia Dańko. I decided to participate in **Dare IT challenge** to gain experience and practical skills during web and mobile applications testing.
+Hi, my name is Zofia Dańko. I decided to participate in **Dare IT challenge** to gain experience and practical skills during web and mobile applications testing.
 I expect interesting challenges, fun while learning, professional networking and career development.
 
 ## Subtask 4
@@ -123,19 +139,19 @@ Unfortunately, the application has poor interface and is not very intuitive. The
  * After switching the language, the logo language on the home page does not change.
  * While creating a player or editing his or her data, you can enter invalid values such as:
 
- 1. Weight displayed as negative number, e.g. - 100, or ridiculously heavy or no information about weight unit (is it kg or pound?)
+   * Weight displayed as negative number, e.g. - 100, or ridiculously heavy or no information about weight unit (is it kg or pound?)
 
- 2. Too great or too small height.
+   * Too great or too small height.
 
- 3. You can add a player who has not been born yet or would be over 100 years old.
+   * You can add a player who has not been born yet or would be over 100 years old.
 
- 4. You can type numbers instead of letters and letters instead of numbers. You can also type emojis.
+   * You can type numbers instead of letters and letters instead of numbers. You can also type emojis.
 
- 5. Too many characters or digits can be entered. Beacuse of that, the text can overlap other columns.
+   * Too many characters or digits can be entered. Beacuse of that, the text can overlap other columns.
 
   * Despite saving the data, the "clear" button removes the provided data.
   * The "submit" and "clear" buttons are in English despite changing the page settings to Polish.
-  * When trying to submit a player data, without providing all the required information, not all required fields are highlighted in red. The return message is         in English.  
+  * When trying to submit a player data, without providing all the required information, not all required fields are highlighted in red. The return message is in English.  
   * It is impossible to click on the YT/FB link provided during the player data creation step.
   * When creating a match, the game time can be displayed as a negative number.
   * You can create a report of a match that has not yet taken place.
@@ -143,3 +159,22 @@ Unfortunately, the application has poor interface and is not very intuitive. The
   * It is not possible to download the match report.
   * Wrong translation of "Linki pomocnicze" button on home page.
   * Dev team contact hyperlink redirects to slack app only (instead of email etc.).
+
+# TASK 2
+
+## Subtask 1 - *Writing test cases based on User Story.*
+
+Please find my test ceases on https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+
+## Subtask 2 - *Writing test cases based on your "own experience"*
+
+Please find my test ceases on https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+
+## Subtask 3 - *Why do we write test cases?*
+
+In my opinion we write test cases because it helps us plan tests.
+They help verify the compliance of the software with the requirements.
+They also provide helpful instructions for a new tester in a project.
+Test cases allow for effective and consistent regression testing.
+
+
