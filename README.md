@@ -88,7 +88,11 @@ Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrD
 ## Subtask 3 - *Po co piszemy test case’y?*
 
 Moim zdaniem przypadki testowe piszemy, ponieważ pomaga nam to planować testy.
-Łatwiej jest z ich pomocą zweryfikować zgodność oprogramowania z wymaganiami. Są pewnego rodzaju instrukcją dla testera, oomocną zwłaszcza dla nowych testerów w projekcie. Umożliwiają również skuteczne i spójne testowanie regresji.
+Łatwiej jest z ich pomocą zweryfikować zgodność oprogramowania z wymaganiami. Są pewnego rodzaju instrukcją dla testera, pomocną zwłaszcza dla nowych testerów w projekcie. Umożliwiają również skuteczne i spójne testowanie regresji.
+
+## Subtask 4 *Pisanie przypadków testowych na podstawie “własnych doświadczeń"*. - **Pick Eat Up** - aplikacja mobilna.
+
+Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
 
 
 
@@ -174,5 +178,9 @@ Please find my test ceases on https://drive.google.com/drive/folders/1OZHrDLQ9Q7
 
 In my opinion we write test cases because it helps us plan tests.
 They help verify the compliance of the software with the requirements.
-They also provide helpful instructions for a new tester in a project.
+They also contain helpful instructions for a new tester in a project.
 Test cases allow for effective and consistent regression testing.
+
+## Subtask 4 *Writing test cases based on your "own experience"* - ***PICK EAT UP*** - mobile application.
+
+Please find my test ceases on https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
