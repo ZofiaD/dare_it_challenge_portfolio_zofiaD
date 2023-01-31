@@ -94,6 +94,17 @@ Moim zdaniem przypadki testowe piszemy, ponieważ pomaga nam to planować testy.
 
 Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
 
+# TASK 3
+
+## Subtask 2 - *Testowanie według planów testów i raportowanie błędów.*
+
+:point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
+
+
+## Subtask 3 - *Raport z wykonanych testów.*
+
+:point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
+
 
 
 
@@ -184,3 +195,14 @@ Test cases allow for effective and consistent regression testing.
 ## Subtask 4 *Writing test cases based on your "own experience"* - ***PICK EAT UP*** - mobile application.
 
 Please find my test ceases on https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+
+# TASK 3
+
+## Subtask 2 - *Testing according to test plan and bug report.*
+
+:point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
+
+
+## Subtask 3 - *Test report.*
+
+:point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
