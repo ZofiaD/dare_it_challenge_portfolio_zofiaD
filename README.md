@@ -105,6 +105,16 @@ Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrD
 
 :point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
 
+# TASK 4
+
+## Subtask 3
+
+Aplikacja OLX służy do dodawania oraz szukania ogłoszeń na interesujący nas temat. Ogłoszenia te dotyczą m.in. usług, pracy, kupna, sprzedaży i wynajmu.  Osobiście uważam, że aplikacja ta jest bardzo przyjazna i intuicyjna dla użytkowników końcowych którymi są zwykli ludzie. Jest też niezawodna i nie wzbudza w użytkownikach poczucia frustracji.
+Gdybym mogła dodałabym do niej przycisk "Wyczyść wszystkie filtry" oraz opcję zmiany języka interfejsu na angielski i ukraiński. 
+
+Z mojego punktu widzenia główną różnicą pomiędzy testowaniem aplikacji mobilnej i webowej jest możliwość wystąpienia różnych błędów na różnych urządzeniach. Należy pamiętać, że telefony komórkowe, a w związku z tym aplikacje wystawione są na działania wielu czynników takich jak ładowanie, zaniki internetu, tryb oszczędzania baterii czy połączenia wychodzące i przychodzące.  W każdej z tych sytuacji aplikacja mobilna może zachować się inaczej.
+
+
 
 
 
