@@ -107,14 +107,32 @@ Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrD
 
 # TASK 4
 
+## Subtask 2 - *Testowanie eksploracyjne i raportowanie błędów - aplikacja mobilna OLX*
+
+:point_right: https://drive.google.com/drive/folders/1i8yyyPkfFo5nn885NUhzRrJreoPbNUPf?usp=sharing
+
 ## Subtask 3
 
 Aplikacja OLX służy do dodawania oraz szukania ogłoszeń na interesujący nas temat. Ogłoszenia te dotyczą m.in. usług, pracy, kupna, sprzedaży i wynajmu.  Osobiście uważam, że aplikacja ta jest bardzo przyjazna i intuicyjna dla użytkowników końcowych którymi są zwykli ludzie. Jest też niezawodna i nie wzbudza w użytkownikach poczucia frustracji.
 Gdybym mogła dodałabym do niej przycisk "Wyczyść wszystkie filtry" oraz opcję zmiany języka interfejsu na angielski i ukraiński. 
 
-Z mojego punktu widzenia główną różnicą pomiędzy testowaniem aplikacji mobilnej i webowej jest możliwość wystąpienia różnych błędów na różnych urządzeniach. Należy pamiętać, że telefony komórkowe, a w związku z tym aplikacje wystawione są na działania wielu czynników takich jak ładowanie, zaniki internetu, tryb oszczędzania baterii czy połączenia wychodzące i przychodzące.  W każdej z tych sytuacji aplikacja mobilna może zachować się inaczej.
+Z mojego punktu widzenia główną różnicą pomiędzy testowaniem aplikacji mobilnej i webowej jest możliwość wystąpienia różnych błędów na różnych urządzeniach. Należy pamiętać, że telefony komórkowe, a w związku z tym aplikacje wystawione są na działania wielu czynników takich jak ładowanie, słaby zasięg internetu, tryb oszczędzania baterii czy połączenia wychodzące i przychodzące.  W każdej z tych sytuacji aplikacja mobilna może zachować się inaczej.
+
+## Subtask 4 - *Zgłaszanie błędów w programie Jira - aplikacja SwipeTo*
+
+![obraz](https://user-images.githubusercontent.com/102677799/217333186-0003e4aa-fd8c-4685-9309-f14841116f3a.png)
 
 
+
+![DPP-3](https://user-images.githubusercontent.com/102677799/217334414-1e87ee74-b2f3-4cad-b948-f16edb2f44f6.png)
+
+
+![DPP-4](https://user-images.githubusercontent.com/102677799/217334470-722b151a-0c8a-46fe-b53d-e707fd6fba49.png)
+
+
+
+
+![DPP-5](https://user-images.githubusercontent.com/102677799/217335873-b9efcadf-ef1e-4f5b-bc88-a36bc5e5f18b.png)
 
 
 
@@ -216,3 +234,35 @@ Please find my test ceases on https://drive.google.com/drive/folders/1OZHrDLQ9Q7
 ## Subtask 3 - *Test report.*
 
 :point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
+
+# TASK 4
+
+## Subtask 2 - *Exploratory testing and bug report - OLX mobile app.*
+
+
+:point_right: https://drive.google.com/drive/folders/1i8yyyPkfFo5nn885NUhzRrJreoPbNUPf?usp=sharing
+
+## Subtask 3
+
+Users use the OLX application to search and add announcements concerning e.g. job search, services, sales, purchases and rentals. In my opinion, the application is user friendly and intuitive. Made for ordinary people. Customers don't feel frustration while using the application. It's really reliable. If I could add new features I would add a „Clear all filters” button and a way to switch interface language to English and Ukrainian. 
+
+From my point of view the main difference between testing the mobile app and the web app is the possibility of different bugs occurring on different devices. Testers should be aware that mobile phones are exposed to factors such as internet connection issues or incoming/outgoing calls. The application may also behave differently in power saving mode or during charging. 
+
+
+
+## Subtask 4 - *Bug report in Jira - SwipeTo application".*
+
+![obraz](https://user-images.githubusercontent.com/102677799/217333186-0003e4aa-fd8c-4685-9309-f14841116f3a.png)
+
+
+
+![DPP-3](https://user-images.githubusercontent.com/102677799/217334414-1e87ee74-b2f3-4cad-b948-f16edb2f44f6.png)
+
+
+![DPP-4](https://user-images.githubusercontent.com/102677799/217334470-722b151a-0c8a-46fe-b53d-e707fd6fba49.png)
+
+
+
+
+![DPP-5](https://user-images.githubusercontent.com/102677799/217335821-f0444c00-cf32-49cd-98c4-0e747c436e5e.png)
+
