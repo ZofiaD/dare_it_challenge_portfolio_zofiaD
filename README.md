@@ -136,6 +136,85 @@ Z mojego punktu widzenia główną różnicą pomiędzy testowaniem aplikacji mo
 
 
 
+# TASK 5
+
+
+## Subtask 3
+
+
+* Wyświetl tabelę "actors" w kolejności alfabetycznej sortując po kolumnie surname.
+
+
+SELECT * FROM actors ORDER BY surname;
+
+
+![1](https://user-images.githubusercontent.com/102677799/218267967-e87bb1cf-8cbc-4404-849d-c4f035349fa1.png)
+
+* Wyświetl film, który powstał w 2019 roku.
+
+SELECT * FROM movies WHERE year_of_production= 2019;
+
+![2](https://user-images.githubusercontent.com/102677799/218268185-0c965922-56b3-4745-9d6a-42ffbf5c11d5.png)
+
+* Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+SELECT * FROM movies WHERE year_of_production BETWEEN 1900 and 1999;
+
+
+![between](https://user-images.githubusercontent.com/102677799/218268295-bd11087b-b22d-4afb-8dcc-d8c5a12a375f.png)
+
+* Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
+
+SELECT title, price FROM movies WHERE price < 7;
+
+
+![4](https://user-images.githubusercontent.com/102677799/218268408-62e49918-59cb-47ac-a958-3782299cf512.png)
+
+* Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+
+SELECT * FROM actors WHERE actor_id>= 4 and actor_id<= 7;
+
+![4-7](https://user-images.githubusercontent.com/102677799/218268529-35984004-9a20-4a76-82f7-746acb8dd434.png)
+
+* Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+SELECT * FROM  customers WHERE mod(customer_id,2) = 0;
+
+
+![6](https://user-images.githubusercontent.com/102677799/218268619-3e32e52e-d8ca-4b89-8b79-a172aa49d388.png)
+
+* Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+SELECT * FROM customers WHERE customer_id IN (1,2,5);
+
+
+![7](https://user-images.githubusercontent.com/102677799/218268708-806f50cb-f852-4a4b-864d-a16585547466.png)
+
+* Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+
+SELECT * FROM actors WHERE name Like 'An%';
+
+
+![8](https://user-images.githubusercontent.com/102677799/218268978-8153e1ab-8e76-434b-b76b-b119985bbc51.png)
+
+* Wyświetl dane klienta, który nie ma podanego adresu email.
+
+SELECT * FROM customers WHERE email IS null;
+
+![9](https://user-images.githubusercontent.com/102677799/218269030-56880640-24c3-49e5-acae-0243e542e908.png)
+
+* Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+
+SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
+
+
+![10](https://user-images.githubusercontent.com/102677799/218269108-8ed27fe5-b153-487b-aa8e-c7ca452ef573.png)
+
+
+
+
 #### ENGLISH VERSION
 
 # TASK 1 
@@ -250,7 +329,7 @@ From my point of view the main difference between testing the mobile app and the
 
 
 
-## Subtask 4 - *Bug report in Jira - SwipeTo application".*
+## Subtask 4 - *Bug report in Jira - SwipeTo application.*
 
 ![obraz](https://user-images.githubusercontent.com/102677799/217333186-0003e4aa-fd8c-4685-9309-f14841116f3a.png)
 
