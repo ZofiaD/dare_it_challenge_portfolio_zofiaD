@@ -342,6 +342,100 @@ From my point of view the main difference between testing the mobile app and the
 
 
 
-
 ![DPP-5](https://user-images.githubusercontent.com/102677799/217335821-f0444c00-cf32-49cd-98c4-0e747c436e5e.png)
+
+# TASK 5
+
+
+## Subtask 3
+
+
+* Display the "actors" table in alphabetical order sorting by surname column.
+
+
+SELECT * FROM actors ORDER BY surname;
+
+
+![1](https://user-images.githubusercontent.com/102677799/218267967-e87bb1cf-8cbc-4404-849d-c4f035349fa1.png)
+
+
+
+* Display the movie which was made in 2019. 
+
+SELECT * FROM movies WHERE year_of_production= 2019;
+
+![2](https://user-images.githubusercontent.com/102677799/218268185-0c965922-56b3-4745-9d6a-42ffbf5c11d5.png)
+
+
+
+* Display all movies made between 1900 and 1999. 
+
+SELECT * FROM movies WHERE year_of_production BETWEEN 1900 and 1999;
+
+
+![between](https://user-images.githubusercontent.com/102677799/218268295-bd11087b-b22d-4afb-8dcc-d8c5a12a375f.png)
+
+
+
+* Display only titles and prices of movies that cost less than 7$.  
+
+SELECT title, price FROM movies WHERE price < 7;
+
+
+![4](https://user-images.githubusercontent.com/102677799/218268408-62e49918-59cb-47ac-a958-3782299cf512.png)
+
+
+
+* Use the logical "AND" operator to display actors with actor_id between 4-7 (4 and 7 should be displayed). Do not use "BETWEEN" operator.
+
+SELECT * FROM actors WHERE actor_id>= 4 and actor_id<= 7;
+
+![4-7](https://user-images.githubusercontent.com/102677799/218268529-35984004-9a20-4a76-82f7-746acb8dd434.png)
+
+
+
+* Display customers with id 2,4,6, use logical condition for this.
+
+SELECT * FROM  customers WHERE mod(customer_id,2) = 0;
+
+
+![6](https://user-images.githubusercontent.com/102677799/218268619-3e32e52e-d8ca-4b89-8b79-a172aa49d388.png)
+
+
+
+* Display customers with id 1,3,5, use "IN" operator.
+
+SELECT * FROM customers WHERE customer_id IN (1,2,5);
+
+
+![7](https://user-images.githubusercontent.com/102677799/218268708-806f50cb-f852-4a4b-864d-a16585547466.png)
+
+
+
+* Display the data of all persons from the 'actors' table whose name starts with 'An'. 
+
+
+SELECT * FROM actors WHERE name Like 'An%';
+
+
+![8](https://user-images.githubusercontent.com/102677799/218268978-8153e1ab-8e76-434b-b76b-b119985bbc51.png)
+
+
+
+* Display data of a customer who does not have an email address provided.
+
+
+SELECT * FROM customers WHERE email IS null;
+
+![9](https://user-images.githubusercontent.com/102677799/218269030-56880640-24c3-49e5-acae-0243e542e908.png)
+
+
+
+* Display all movies with price over 9$ and with movie_id between 2 and 8. 
+
+
+SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
+
+
+![10](https://user-images.githubusercontent.com/102677799/218269108-8ed27fe5-b153-487b-aa8e-c7ca452ef573.png)
 
