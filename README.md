@@ -212,6 +212,81 @@ SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
 
 ![10](https://user-images.githubusercontent.com/102677799/218269108-8ed27fe5-b153-487b-aa8e-c7ca452ef573.png)
 
+# TASK 6
+
+
+## Subtask 1
+
+11.
+![11(0)](https://user-images.githubusercontent.com/102677799/220428469-274b6c42-8f87-467c-ba0e-ccd635f3626a.png)
+
+![11v2](https://user-images.githubusercontent.com/102677799/220431225-dbed72c9-bd52-4f39-bdbc-a87bc3a57742.png)
+
+
+
+12.
+
+![12](https://user-images.githubusercontent.com/102677799/220428528-123bb6af-3a9d-47e2-86b2-4b4c00a871f3.png)
+
+![12(2)](https://user-images.githubusercontent.com/102677799/220428545-b63ebd99-339c-49b6-a2c0-b48c07f6f19a.png)
+
+13.
+![13](https://user-images.githubusercontent.com/102677799/220428876-ac679e5f-3915-4b1d-8cca-337cbf9fbf1e.png)
+
+
+![13(2)](https://user-images.githubusercontent.com/102677799/220431761-1ea33c82-d943-4db5-b4a1-cb4230f6060c.png)
+
+14.
+![14](https://user-images.githubusercontent.com/102677799/220428950-d82258ed-d0c4-4672-b41e-c02b533fd1ed.png)
+
+![14(2)](https://user-images.githubusercontent.com/102677799/220428975-27a67859-0fae-48db-916e-4705849f3f84.png)
+
+15.
+ ALTER TABLE customers ADD pseudonym varchar(3)
+ 
+![15](https://user-images.githubusercontent.com/102677799/220430151-5c9f519a-e581-47eb-885b-eb3f97c89969.png)
+
+16.
+
+![16](https://user-images.githubusercontent.com/102677799/220430256-0aae29c8-69a9-4ddb-8abe-17ad2a923b6e.png)
+
+![16(2)](https://user-images.githubusercontent.com/102677799/220430282-969a770b-1f2e-4fb5-b924-0f6e4c93d9fa.png)
+
+17.
+![17](https://user-images.githubusercontent.com/102677799/220430361-f99272de-32a0-4fdf-ad05-a045fa1d8a6e.png)
+
+![17(2)](https://user-images.githubusercontent.com/102677799/220430392-963ba839-b867-41ea-9def-21d6423dff94.png)
+
+18.
+
+![18](https://user-images.githubusercontent.com/102677799/220430452-a42163d5-3133-4623-b59c-24e2d6cd109e.png)
+
+19.
+
+![19(2)](https://user-images.githubusercontent.com/102677799/220430497-d1fadedb-fe65-4c60-b1ee-9457e7370412.png)
+
+![19](https://user-images.githubusercontent.com/102677799/220430477-7ee58b17-6ff2-4429-afc7-f41ab94af04c.png)
+
+20.
+![20](https://user-images.githubusercontent.com/102677799/220430526-3725566e-ee8c-4ccd-b57f-3c419f8f1be0.png)
+
+
+![20(2)](https://user-images.githubusercontent.com/102677799/220430552-23c9f722-8e7f-4bd6-92ae-f7d42ecb9b68.png)
+
+## Subtask 2
+
+![subtask2](https://user-images.githubusercontent.com/102677799/220448859-98136365-b7d2-439c-943e-fbd0a4dca000.png)
+
+
+## Subtask 3
+Zapraszam do zapoznania się z moim portfolio :blush:
+https://github.com/ZofiaD/PORTFOLIO.git
+
+
+
+
+
+
 
 
 
@@ -438,4 +513,74 @@ SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
 
 
 ![10](https://user-images.githubusercontent.com/102677799/218269108-8ed27fe5-b153-487b-aa8e-c7ca452ef573.png)
+
+# TASK 6
+
+
+## Subtask 1
+
+11.
+![11(0)](https://user-images.githubusercontent.com/102677799/220428469-274b6c42-8f87-467c-ba0e-ccd635f3626a.png)
+
+![11v2](https://user-images.githubusercontent.com/102677799/220431225-dbed72c9-bd52-4f39-bdbc-a87bc3a57742.png)
+
+
+
+12.
+
+![12](https://user-images.githubusercontent.com/102677799/220428528-123bb6af-3a9d-47e2-86b2-4b4c00a871f3.png)
+
+![12(2)](https://user-images.githubusercontent.com/102677799/220428545-b63ebd99-339c-49b6-a2c0-b48c07f6f19a.png)
+
+13.
+![13](https://user-images.githubusercontent.com/102677799/220428876-ac679e5f-3915-4b1d-8cca-337cbf9fbf1e.png)
+
+
+![13(2)](https://user-images.githubusercontent.com/102677799/220431761-1ea33c82-d943-4db5-b4a1-cb4230f6060c.png)
+
+14.
+![14](https://user-images.githubusercontent.com/102677799/220428950-d82258ed-d0c4-4672-b41e-c02b533fd1ed.png)
+
+![14(2)](https://user-images.githubusercontent.com/102677799/220428975-27a67859-0fae-48db-916e-4705849f3f84.png)
+
+15.
+ ALTER TABLE customers ADD pseudonym varchar(3)
+ 
+![15](https://user-images.githubusercontent.com/102677799/220430151-5c9f519a-e581-47eb-885b-eb3f97c89969.png)
+
+16.
+
+![16](https://user-images.githubusercontent.com/102677799/220430256-0aae29c8-69a9-4ddb-8abe-17ad2a923b6e.png)
+
+![16(2)](https://user-images.githubusercontent.com/102677799/220430282-969a770b-1f2e-4fb5-b924-0f6e4c93d9fa.png)
+
+17.
+![17](https://user-images.githubusercontent.com/102677799/220430361-f99272de-32a0-4fdf-ad05-a045fa1d8a6e.png)
+
+![17(2)](https://user-images.githubusercontent.com/102677799/220430392-963ba839-b867-41ea-9def-21d6423dff94.png)
+
+18.
+
+![18](https://user-images.githubusercontent.com/102677799/220430452-a42163d5-3133-4623-b59c-24e2d6cd109e.png)
+
+19.
+
+![19(2)](https://user-images.githubusercontent.com/102677799/220430497-d1fadedb-fe65-4c60-b1ee-9457e7370412.png)
+
+![19](https://user-images.githubusercontent.com/102677799/220430477-7ee58b17-6ff2-4429-afc7-f41ab94af04c.png)
+
+20.
+![20](https://user-images.githubusercontent.com/102677799/220430526-3725566e-ee8c-4ccd-b57f-3c419f8f1be0.png)
+
+
+![20(2)](https://user-images.githubusercontent.com/102677799/220430552-23c9f722-8e7f-4bd6-92ae-f7d42ecb9b68.png)
+
+## Subtask 2
+
+![subtask2](https://user-images.githubusercontent.com/102677799/220448859-98136365-b7d2-439c-943e-fbd0a4dca000.png)
+
+## Subtask 3
+
+Please find my portfolio on 
+https://github.com/ZofiaD/PORTFOLIO.git
 
