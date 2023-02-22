@@ -13,7 +13,7 @@ Cześć! Nazywam się Zofia Dańko i postanowiłam wziąć udział w **Dare IT c
 
 ## Subtask 4
 
-Aplikacja https://scouts-test.futbolkolektyw.pl/pl służy do tworzenia i edytowania  raportów na temat zawodników piłki nożnej i rozegranych przez nich meczy.
+Aplikacja [Futbol Kolektyw](https://scouts-test.futbolkolektyw.pl/pl) służy do tworzenia i edytowania  raportów na temat zawodników piłki nożnej i rozegranych przez nich meczy.
 
 
 Jej funkcjonalności to:
@@ -74,16 +74,19 @@ Niestety aplikacja posiada słaby interfejs i  jest mało intuicyjna. Do funkcji
 * Złe tłumaczenie na stronie głównej "linki pomocnicze".
 * Dev team contact odnosi nas tylko do aplikacji slack zamiast do maila itp.
 
+---
+
+
 # TASK 2
 
 ## Subtask 1 - *Pisanie przypadków testowych na podstawie User Story.*
 
-Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+Znajdziesz moje test case'y tutaj  [Test Cases](https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing)
 
 
 ## Subtask 2 - *Pisanie przypadków testowych na podstawie “własnych doświadczeń"*.
 
-Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+Znajdziesz moje test case'y tutaj  [Test Cases](https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing)
 
 ## Subtask 3 - *Po co piszemy test case’y?*
 
@@ -92,24 +95,29 @@ Moim zdaniem przypadki testowe piszemy, ponieważ pomaga nam to planować testy.
 
 ## Subtask 4 *Pisanie przypadków testowych na podstawie “własnych doświadczeń"*. - **Pick Eat Up** - aplikacja mobilna.
 
-Znajdziesz moje test case'y tutaj  https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+Znajdziesz moje test case'y tutaj  [Test Cases](https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing)
+
+---
 
 # TASK 3
 
 ## Subtask 2 - *Testowanie według planów testów i raportowanie błędów.*
 
-:point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
+:point_right: [Bug Reports](https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing)
 
 
 ## Subtask 3 - *Raport z wykonanych testów.*
 
-:point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
+:point_right: [Test Report](https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing)
+
+---
+
 
 # TASK 4
 
 ## Subtask 2 - *Testowanie eksploracyjne i raportowanie błędów - aplikacja mobilna OLX*
 
-:point_right: https://drive.google.com/drive/folders/1i8yyyPkfFo5nn885NUhzRrJreoPbNUPf?usp=sharing
+:point_right: [Bug Reports](https://drive.google.com/drive/folders/1i8yyyPkfFo5nn885NUhzRrJreoPbNUPf?usp=sharing)
 
 ## Subtask 3
 
@@ -134,7 +142,7 @@ Z mojego punktu widzenia główną różnicą pomiędzy testowaniem aplikacji mo
 
 ![DPP-5](https://user-images.githubusercontent.com/102677799/217335873-b9efcadf-ef1e-4f5b-bc88-a36bc5e5f18b.png)
 
-
+---
 
 # TASK 5
 
@@ -142,132 +150,153 @@ Z mojego punktu widzenia główną różnicą pomiędzy testowaniem aplikacji mo
 ## Subtask 3
 
 
-* Wyświetl tabelę "actors" w kolejności alfabetycznej sortując po kolumnie surname.
+1. Wyświetl tabelę "actors" w kolejności alfabetycznej sortując po kolumnie surname.
 
 
-SELECT * FROM actors ORDER BY surname;
+**SELECT * FROM actors ORDER BY surname;**
 
 
 ![1](https://user-images.githubusercontent.com/102677799/218267967-e87bb1cf-8cbc-4404-849d-c4f035349fa1.png)
 
-* Wyświetl film, który powstał w 2019 roku.
+2. Wyświetl film, który powstał w 2019 roku.
 
-SELECT * FROM movies WHERE year_of_production= 2019;
+**SELECT * FROM movies WHERE year_of_production= 2019;**
 
 ![2](https://user-images.githubusercontent.com/102677799/218268185-0c965922-56b3-4745-9d6a-42ffbf5c11d5.png)
 
-* Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 
-SELECT * FROM movies WHERE year_of_production BETWEEN 1900 and 1999;
+**SELECT * FROM movies WHERE year_of_production BETWEEN 1900 and 1999;**
 
 
 ![between](https://user-images.githubusercontent.com/102677799/218268295-bd11087b-b22d-4afb-8dcc-d8c5a12a375f.png)
 
-* Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
+4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
 
-SELECT title, price FROM movies WHERE price < 7;
+**SELECT title, price FROM movies WHERE price < 7;**
 
 
 ![4](https://user-images.githubusercontent.com/102677799/218268408-62e49918-59cb-47ac-a958-3782299cf512.png)
 
-* Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
 
-SELECT * FROM actors WHERE actor_id>= 4 and actor_id<= 7;
+**SELECT * FROM actors WHERE actor_id>= 4 and actor_id<= 7;**
 
 ![4-7](https://user-images.githubusercontent.com/102677799/218268529-35984004-9a20-4a76-82f7-746acb8dd434.png)
 
-* Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
 
-SELECT * FROM  customers WHERE mod(customer_id,2) = 0;
+**SELECT * FROM `customers` WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;**
 
 
 ![6](https://user-images.githubusercontent.com/102677799/218268619-3e32e52e-d8ca-4b89-8b79-a172aa49d388.png)
 
-* Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
 
-SELECT * FROM customers WHERE customer_id IN (1,2,5);
+**SELECT * FROM customers WHERE customer_id IN (1,2,5);**
 
 
 ![7](https://user-images.githubusercontent.com/102677799/218268708-806f50cb-f852-4a4b-864d-a16585547466.png)
 
-* Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
 
 
-SELECT * FROM actors WHERE name Like 'An%';
+**SELECT * FROM actors WHERE name Like 'An%';**
 
 
 ![8](https://user-images.githubusercontent.com/102677799/218268978-8153e1ab-8e76-434b-b76b-b119985bbc51.png)
 
-* Wyświetl dane klienta, który nie ma podanego adresu email.
+9. Wyświetl dane klienta, który nie ma podanego adresu email.
 
-SELECT * FROM customers WHERE email IS null;
+**SELECT * FROM customers WHERE email IS null;**
 
 ![9](https://user-images.githubusercontent.com/102677799/218269030-56880640-24c3-49e5-acae-0243e542e908.png)
 
-* Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
 
 
-SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
+**SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;**
 
 
 ![10](https://user-images.githubusercontent.com/102677799/218269108-8ed27fe5-b153-487b-aa8e-c7ca452ef573.png)
+
+---
 
 # TASK 6
 
 
 ## Subtask 1
 
-11.
+11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
 ![11(0)](https://user-images.githubusercontent.com/102677799/220428469-274b6c42-8f87-467c-ba0e-ccd635f3626a.png)
 
 ![11v2](https://user-images.githubusercontent.com/102677799/220431225-dbed72c9-bd52-4f39-bdbc-a87bc3a57742.png)
 
 
 
-12.
+12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
-![12](https://user-images.githubusercontent.com/102677799/220428528-123bb6af-3a9d-47e2-86b2-4b4c00a871f3.png)
 
-![12(2)](https://user-images.githubusercontent.com/102677799/220428545-b63ebd99-339c-49b6-a2c0-b48c07f6f19a.png)
+![12ost](https://user-images.githubusercontent.com/102677799/220609401-93a9be82-1585-4761-8987-e31af4f9baac.png)
 
-13.
+![12 1](https://user-images.githubusercontent.com/102677799/220609422-e78492d4-0f2e-4283-8063-d4edc5161e0c.png)
+
+
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+
 ![13](https://user-images.githubusercontent.com/102677799/220428876-ac679e5f-3915-4b1d-8cca-337cbf9fbf1e.png)
 
 
 ![13(2)](https://user-images.githubusercontent.com/102677799/220431761-1ea33c82-d943-4db5-b4a1-cb4230f6060c.png)
 
-14.
+14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
+
 ![14](https://user-images.githubusercontent.com/102677799/220428950-d82258ed-d0c4-4672-b41e-c02b533fd1ed.png)
 
 ![14(2)](https://user-images.githubusercontent.com/102677799/220428975-27a67859-0fae-48db-916e-4705849f3f84.png)
 
-15.
- ALTER TABLE customers ADD pseudonym varchar(3)
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+
+ **ALTER TABLE customers ADD pseudonym varchar(3)**
  
 ![15](https://user-images.githubusercontent.com/102677799/220430151-5c9f519a-e581-47eb-885b-eb3f97c89969.png)
 
-16.
+![15(2)](https://user-images.githubusercontent.com/102677799/220624002-e3edfe7e-a102-4855-9c3b-8dc0fe76597b.png)
+
+
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
 
 ![16](https://user-images.githubusercontent.com/102677799/220430256-0aae29c8-69a9-4ddb-8abe-17ad2a923b6e.png)
 
 ![16(2)](https://user-images.githubusercontent.com/102677799/220430282-969a770b-1f2e-4fb5-b924-0f6e4c93d9fa.png)
 
-17.
+17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+
 ![17](https://user-images.githubusercontent.com/102677799/220430361-f99272de-32a0-4fdf-ad05-a045fa1d8a6e.png)
 
 ![17(2)](https://user-images.githubusercontent.com/102677799/220430392-963ba839-b867-41ea-9def-21d6423dff94.png)
 
-18.
+18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+
+
 
 ![18](https://user-images.githubusercontent.com/102677799/220430452-a42163d5-3133-4623-b59c-24e2d6cd109e.png)
 
-19.
+19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+
 
 ![19(2)](https://user-images.githubusercontent.com/102677799/220430497-d1fadedb-fe65-4c60-b1ee-9457e7370412.png)
 
 ![19](https://user-images.githubusercontent.com/102677799/220430477-7ee58b17-6ff2-4429-afc7-f41ab94af04c.png)
 
-20.
+20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+
+
 ![20](https://user-images.githubusercontent.com/102677799/220430526-3725566e-ee8c-4ccd-b57f-3c419f8f1be0.png)
 
 
@@ -280,11 +309,10 @@ SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
 
 ## Subtask 3
 Zapraszam do zapoznania się z moim portfolio :blush:
-https://github.com/ZofiaD/PORTFOLIO.git
+[PORTFOLIO](https://github.com/ZofiaD/PORTFOLIO.git)
 
 
-
-
+---
 
 
 
@@ -304,7 +332,7 @@ I expect interesting challenges, fun while learning, professional networking and
 
 ## Subtask 4
 
-The web application https://scouts-test.futbolkolektyw.pl/pl is used to create and edit reports about football players and matches they played.
+The web application [Futbol Kolektyw](https://scouts-test.futbolkolektyw.pl/pl) is used to create and edit reports about football players and matches they played.
 
 Application functionality:
 
@@ -356,16 +384,18 @@ Unfortunately, the application has poor interface and is not very intuitive. The
   * It is not possible to download the match report.
   * Wrong translation of "Linki pomocnicze" button on home page.
   * Dev team contact hyperlink redirects to slack app only (instead of email etc.).
+  
+  ---
 
 # TASK 2
 
 ## Subtask 1 - *Writing test cases based on User Story.*
 
-Please find my test ceases on https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+Please find my test cases on [Test cases](https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing)
 
 ## Subtask 2 - *Writing test cases based on your "own experience"*
 
-Please find my test ceases on https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+Please find my test cases on [Test cases](https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing)
 
 ## Subtask 3 - *Why do we write test cases?*
 
@@ -376,25 +406,29 @@ Test cases allow for effective and consistent regression testing.
 
 ## Subtask 4 *Writing test cases based on your "own experience"* - ***PICK EAT UP*** - mobile application.
 
-Please find my test ceases on https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing
+Please find my test cases on [Test cases](https://drive.google.com/drive/folders/1OZHrDLQ9Q7OqTHEhCYCJTAEUBQSixOHD?usp=sharing)
+
+---
 
 # TASK 3
 
 ## Subtask 2 - *Testing according to test plan and bug report.*
 
-:point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
+:point_right: [Bug Reports](https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing)
 
 
 ## Subtask 3 - *Test report.*
 
-:point_right: https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing
+:point_right: [Test Report](https://drive.google.com/drive/folders/1ZBefbKlAniqDTgZPBl3wGLYppKZZWG9B?usp=sharing)
+
+---
 
 # TASK 4
 
 ## Subtask 2 - *Exploratory testing and bug report - OLX mobile app.*
 
 
-:point_right: https://drive.google.com/drive/folders/1i8yyyPkfFo5nn885NUhzRrJreoPbNUPf?usp=sharing
+:point_right: [Bug Reports](https://drive.google.com/drive/folders/1i8yyyPkfFo5nn885NUhzRrJreoPbNUPf?usp=sharing)
 
 ## Subtask 3
 
@@ -419,100 +453,104 @@ From my point of view the main difference between testing the mobile app and the
 
 ![DPP-5](https://user-images.githubusercontent.com/102677799/217335821-f0444c00-cf32-49cd-98c4-0e747c436e5e.png)
 
+---
+
 # TASK 5
 
 
 ## Subtask 3
 
 
-* Display the "actors" table in alphabetical order sorting by surname column.
+1. Display the "actors" table in alphabetical order sorting by surname column.
 
 
-SELECT * FROM actors ORDER BY surname;
+**SELECT * FROM actors ORDER BY surname;**
 
 
 ![1](https://user-images.githubusercontent.com/102677799/218267967-e87bb1cf-8cbc-4404-849d-c4f035349fa1.png)
 
 
 
-* Display the movie which was made in 2019. 
+2. Display the movie which was made in 2019. 
 
-SELECT * FROM movies WHERE year_of_production= 2019;
+**SELECT * FROM movies WHERE year_of_production= 2019;**
 
 ![2](https://user-images.githubusercontent.com/102677799/218268185-0c965922-56b3-4745-9d6a-42ffbf5c11d5.png)
 
 
 
-* Display all movies made between 1900 and 1999. 
+3. Display all movies made between 1900 and 1999. 
 
-SELECT * FROM movies WHERE year_of_production BETWEEN 1900 and 1999;
+**SELECT * FROM movies WHERE year_of_production BETWEEN 1900 and 1999;**
 
 
 ![between](https://user-images.githubusercontent.com/102677799/218268295-bd11087b-b22d-4afb-8dcc-d8c5a12a375f.png)
 
 
 
-* Display only titles and prices of movies that cost less than 7$.  
+4. Display only titles and prices of movies that cost less than 7$.  
 
-SELECT title, price FROM movies WHERE price < 7;
+**SELECT title, price FROM movies WHERE price < 7;**
 
 
 ![4](https://user-images.githubusercontent.com/102677799/218268408-62e49918-59cb-47ac-a958-3782299cf512.png)
 
 
 
-* Use the logical "AND" operator to display actors with actor_id between 4-7 (4 and 7 should be displayed). Do not use "BETWEEN" operator.
+5. Use the logical "AND" operator to display actors with actor_id between 4-7 (4 and 7 should be displayed). Do not use "BETWEEN" operator.
 
-SELECT * FROM actors WHERE actor_id>= 4 and actor_id<= 7;
+**SELECT * FROM actors WHERE actor_id>= 4 and actor_id<= 7;**
 
 ![4-7](https://user-images.githubusercontent.com/102677799/218268529-35984004-9a20-4a76-82f7-746acb8dd434.png)
 
 
 
-* Display customers with id 2,4,6, use logical condition for this.
+6. Display customers with id 2,4,6, use logical condition for this.
 
-SELECT * FROM  customers WHERE mod(customer_id,2) = 0;
+**SELECT * FROM  customers WHERE mod(customer_id,2) = 0;**
 
 
 ![6](https://user-images.githubusercontent.com/102677799/218268619-3e32e52e-d8ca-4b89-8b79-a172aa49d388.png)
 
 
 
-* Display customers with id 1,3,5, use "IN" operator.
+7. Display customers with id 1,3,5, use "IN" operator.
 
-SELECT * FROM customers WHERE customer_id IN (1,2,5);
+**SELECT * FROM customers WHERE customer_id IN (1,2,5);**
 
 
 ![7](https://user-images.githubusercontent.com/102677799/218268708-806f50cb-f852-4a4b-864d-a16585547466.png)
 
 
 
-* Display the data of all persons from the 'actors' table whose name starts with 'An'. 
+8. Display the data of all persons from the 'actors' table whose name starts with 'An'. 
 
 
-SELECT * FROM actors WHERE name Like 'An%';
+**SELECT * FROM actors WHERE name Like 'An%';**
 
 
 ![8](https://user-images.githubusercontent.com/102677799/218268978-8153e1ab-8e76-434b-b76b-b119985bbc51.png)
 
 
 
-* Display data of a customer who does not have an email address provided.
+9. Display data of a customer who does not have an email address provided.
 
 
-SELECT * FROM customers WHERE email IS null;
+**SELECT * FROM customers WHERE email IS null;**
 
 ![9](https://user-images.githubusercontent.com/102677799/218269030-56880640-24c3-49e5-acae-0243e542e908.png)
 
 
 
-* Display all movies with price over 9$ and with movie_id between 2 and 8. 
+10. Display all movies with price over 9$ and with movie_id between 2 and 8. 
 
 
-SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
+**SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;**
 
 
 ![10](https://user-images.githubusercontent.com/102677799/218269108-8ed27fe5-b153-487b-aa8e-c7ca452ef573.png)
+
+---
 
 # TASK 6
 
@@ -527,10 +565,10 @@ SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
 
 
 12.
+![12ost](https://user-images.githubusercontent.com/102677799/220609401-93a9be82-1585-4761-8987-e31af4f9baac.png)
 
-![12](https://user-images.githubusercontent.com/102677799/220428528-123bb6af-3a9d-47e2-86b2-4b4c00a871f3.png)
+![12 1](https://user-images.githubusercontent.com/102677799/220609422-e78492d4-0f2e-4283-8063-d4edc5161e0c.png)
 
-![12(2)](https://user-images.githubusercontent.com/102677799/220428545-b63ebd99-339c-49b6-a2c0-b48c07f6f19a.png)
 
 13.
 ![13](https://user-images.githubusercontent.com/102677799/220428876-ac679e5f-3915-4b1d-8cca-337cbf9fbf1e.png)
@@ -544,9 +582,12 @@ SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
 ![14(2)](https://user-images.githubusercontent.com/102677799/220428975-27a67859-0fae-48db-916e-4705849f3f84.png)
 
 15.
- ALTER TABLE customers ADD pseudonym varchar(3)
+ **ALTER TABLE customers ADD pseudonym varchar(3)**
  
 ![15](https://user-images.githubusercontent.com/102677799/220430151-5c9f519a-e581-47eb-885b-eb3f97c89969.png)
+
+![15(2)](https://user-images.githubusercontent.com/102677799/220624002-e3edfe7e-a102-4855-9c3b-8dc0fe76597b.png)
+
 
 16.
 
@@ -582,5 +623,5 @@ SELECT * FROM movies WHERE price > 9 and movie_id Between 2 and 8;
 ## Subtask 3
 
 Please find my portfolio on 
-https://github.com/ZofiaD/PORTFOLIO.git
+[PORTFOLIO](https://github.com/ZofiaD/PORTFOLIO.git)
 
